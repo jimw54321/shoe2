@@ -4,8 +4,8 @@
 // trivial class to hold the value and suit of a card.
 class Card
 {
-    char suit;
     char value;
+    char suit;
 public:
     Card(char v, char s) : value(v), suit(s) {}
     char getvalue() const { return value; }
